@@ -1,0 +1,82 @@
+*{
+background-image:url(./design2.jpg);
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 20px;
+background-size: cover;
+}
+
+.row{
+    display: flex;
+    margin: 20px;
+  
+
+}
+
+.container{
+margin: 50px auto;
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(255,121,0,1) 64%, rgba(0,255,149,0.7268843061468575) 100%);
+border: 3px solid red;
+padding: 30px;
+width: 450px;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+/* text-shadow: 30px 13px 3px #EC663F; */
+}
+
+.wrapper{
+    /* border: 1px solid black; */
+    width:100%;
+
+}
+
+.pic{
+    border-radius: 20px;
+    width:100px;
+    height:100px;
+  
+}
+
+img{
+    height: 35px;
+    width: 35px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    margin-top: 10px;
+}
+
+.text{
+    margin-left: 20px;
+}
+
+button{
+  
+    margin: 1rem auto;
+    background: rgb(61, 122, 150);
+    color: white;
+    padding: .5rem;
+    cursor: pointer;
+    border-radius:3px;
+    box-shadow: 10px 10px 15px rgb(26, 171, 181);
+    font-size: large;
+    transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  }
+  button:active{
+    padding: .6rem;
+  }
+  button:hover{
+    color: orange;
+    background-color: whitesmoke;
+    font-size: large;
+    transition: background-color .5s ease-in-out, color .5s ease-in-out;
+  }
+
+
