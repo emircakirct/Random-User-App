@@ -31,9 +31,10 @@ flex-direction: column;
 }
 
 .pic{
-    border-radius: 20px;
+    border-radius: 25px 0 25px 0;
     width:100px;
     height:100px;
+    
   
 }
 
